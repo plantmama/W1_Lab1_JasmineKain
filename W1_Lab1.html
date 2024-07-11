@@ -56,6 +56,9 @@ div#more {
 }
 </style>
 <script type="text/javascript">
+	function validateForm(){
+		//alert("success"); --- alert to show user succesfully pressed a buttton
+	}
 
 </script>
 </head>
@@ -79,7 +82,7 @@ div#more {
 <input type="radio" name="skillset" value="programmer">Programmer<br>
 <input type="radio" name="skillset" value="artist">Artist<br>
 
-<input type="button" value="Submit"> &nbsp; &nbsp; <input type="reset" value="Clear Form">
+<input type="button" value="Submit"onclick="validateForm()"> &nbsp; &nbsp; <input type="reset" value="Clear Form">
 </form>
 <div id="results"></div>
 <div id="more">Testing the results</div>
